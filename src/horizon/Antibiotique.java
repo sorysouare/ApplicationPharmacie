@@ -13,7 +13,7 @@ public class Antibiotique extends Medicament implements Remboursable{
         if (bacterie.equals("thermophyle")){
             return (prix*0.1);
         } if (bacterie.equals("mesophyle")) {
-            return (prix*012);
+            return (prix*0.12);
         }
         return (prix*0.15);
     }
