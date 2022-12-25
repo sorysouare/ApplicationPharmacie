@@ -44,9 +44,9 @@ public class Pharmacie {
         this.nbMedicament=nbMedicament;
     }
 
-    public void affichage(String type){
+    public void display(String type){
         if (type.equals("antibiotique")) {
-            System.out.println("------------- Affichage des Antibiotiques ----------------");
+            System.out.println("------------- Display des Antibiotiques ----------------");
             for (int i = 0; i <nbMedicament; i++) {
                 if (medicament[i] instanceof Antibiotique) {
                     System.out.println(medicament[i]);
@@ -54,7 +54,7 @@ public class Pharmacie {
             }
         }
         if (type.equals("antiInflammatoire")) {
-            System.out.println("------------- Affichage des AntiInflammatoire ----------------");
+            System.out.println("------------- Display des AntiInflammatoire ----------------");
             for (int i = 0; i <nbMedicament; i++) {
                 if (medicament[i] instanceof AntiInflammatoire) {
                     System.out.println(medicament[i]);
@@ -62,7 +62,7 @@ public class Pharmacie {
             }
         }
         if (type.equals("homeopatique")) {
-            System.out.println("------------- Affichage des Homeopatique ----------------");
+            System.out.println("------------- Display the Homeopatique ----------------");
             for (int i = 0; i <nbMedicament; i++) {
                 if (medicament[i] instanceof Homeopatique) {
                     System.out.println(medicament[i]);

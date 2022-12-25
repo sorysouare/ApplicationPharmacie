@@ -34,6 +34,6 @@ public class Main {
         pharmacie.remove(4432);
         System.out.println(""+
                 "**************************Search Medicament**********************************");
-        pharmacie.affichage("antibiotique");
+        pharmacie.display("antibiotique");
     }
 }
